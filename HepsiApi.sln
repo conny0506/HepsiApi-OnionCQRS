@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C67CD6C6-5685-4E14-9F63-F753EB30FBCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{570AFDA2-3A7B-443A-AD8D-390CDCA80E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Domain", "Core\HepsiApi.Domain\HepsiApi.Domain.csproj", "{31C4E6D4-E09B-4DC8-ACA5-0923E339A04C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Application", "Core\HepsiApi.Application\HepsiApi.Application.csproj", "{E0CE9D49-E9F5-44E5-B945-E3FC8393DADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Infrastructure", "Infrastructure\HepsiApi.Infrastructure\HepsiApi.Infrastructure.csproj", "{EF522BD0-DB8E-4136-9DD6-340DD4B8784B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Persistence", "Infrastructure\HepsiApi.Persistence\HepsiApi.Persistence.csproj", "{C0F513CA-7BB9-4356-AC34-5360AFFC0B7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HepsiApi.Api", "Presentation\HepsiApi.Api\HepsiApi.Api.csproj", "{15879588-14F6-48E0-8817-A5DCA5022FAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31C4E6D4-E09B-4DC8-ACA5-0923E339A04C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C4E6D4-E09B-4DC8-ACA5-0923E339A04C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C4E6D4-E09B-4DC8-ACA5-0923E339A04C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C4E6D4-E09B-4DC8-ACA5-0923E339A04C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0CE9D49-E9F5-44E5-B945-E3FC8393DADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0CE9D49-E9F5-44E5-B945-E3FC8393DADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0CE9D49-E9F5-44E5-B945-E3FC8393DADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0CE9D49-E9F5-44E5-B945-E3FC8393DADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF522BD0-DB8E-4136-9DD6-340DD4B8784B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF522BD0-DB8E-4136-9DD6-340DD4B8784B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF522BD0-DB8E-4136-9DD6-340DD4B8784B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF522BD0-DB8E-4136-9DD6-340DD4B8784B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F513CA-7BB9-4356-AC34-5360AFFC0B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F513CA-7BB9-4356-AC34-5360AFFC0B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F513CA-7BB9-4356-AC34-5360AFFC0B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F513CA-7BB9-4356-AC34-5360AFFC0B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15879588-14F6-48E0-8817-A5DCA5022FAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15879588-14F6-48E0-8817-A5DCA5022FAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15879588-14F6-48E0-8817-A5DCA5022FAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15879588-14F6-48E0-8817-A5DCA5022FAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{31C4E6D4-E09B-4DC8-ACA5-0923E339A04C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E0CE9D49-E9F5-44E5-B945-E3FC8393DADE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{EF522BD0-DB8E-4136-9DD6-340DD4B8784B} = {C67CD6C6-5685-4E14-9F63-F753EB30FBCA}
+		{C0F513CA-7BB9-4356-AC34-5360AFFC0B7D} = {C67CD6C6-5685-4E14-9F63-F753EB30FBCA}
+		{15879588-14F6-48E0-8817-A5DCA5022FAD} = {570AFDA2-3A7B-443A-AD8D-390CDCA80E1A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6696B38D-17BA-4F4C-B600-F0D66A5C853C}
+	EndGlobalSection
+EndGlobal
